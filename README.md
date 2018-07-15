@@ -14,7 +14,11 @@ npm install --save atlas-mean
 
 ## why
 
-Breaking up [atlas-dataset](https://github.com/atlassubbed/atlas-dataset#readme) into standalone functions.
+Breaking up [atlas-dataset](https://github.com/atlassubbed/atlas-dataset#readme) into standalone functions. This module computes the mean value over an array of numbers:
+
+<p align="center">
+  <img alt="mean(V) = 1/|V| * sum[i=1 -> |V|](v_i)" src="docs/mean.png">
+</p>
 
 ## examples
 
