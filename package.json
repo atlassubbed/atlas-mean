@@ -1,6 +1,6 @@
 {
   "name": "atlas-mean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculates the expectation value of a set of data points.",
   "scripts": {
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",
