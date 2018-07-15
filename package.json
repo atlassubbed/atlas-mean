@@ -6,8 +6,19 @@
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",
     "test": "mocha --colors --recursive './test/**/*.test.js'"
   },
-  "main": "./src/index.js",
-  "keywords": [],
+  "main": "./src/mean.js",
+  "keywords": [
+    "atlassubbed",
+    "math",
+    "stats",
+    "utils",
+    "utility",
+    "arithmetic",
+    "helpers",
+    "statistics",
+    "mean",
+    "expectation-value"
+  ],
   "author": "atlassubbed <atlassubbed@gmail.com>",
   "license": "Apache-2.0",
   "devDependencies": {
@@ -27,5 +38,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/atlassubbed/atlas-mean.git"
+  },
+  "dependencies": {
+    "atlas-sum": "^1.0.0"
   }
 }
